@@ -1,0 +1,36 @@
+/* globals.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+nav {
+  background-color: #003366;
+  color: rgb(255, 255, 255);
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
